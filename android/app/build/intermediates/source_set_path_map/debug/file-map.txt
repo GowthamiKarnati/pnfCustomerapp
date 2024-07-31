@@ -1,0 +1,63 @@
+com.pnfapp-jetified-react-android-0.73.0-debug-0 C:\Users\neelm\.gradle\caches\transforms-3\12c7ca77f61b27b86d462991d806bbcd\transformed\jetified-react-android-0.73.0-debug\res
+com.pnfapp-constraintlayout-2.0.1-1 C:\Users\neelm\.gradle\caches\transforms-3\1686b6cd0b220ef08ef31cab3086b187\transformed\constraintlayout-2.0.1\res
+com.pnfapp-swiperefreshlayout-1.1.0-2 C:\Users\neelm\.gradle\caches\transforms-3\2589243e5d615c8b2ec708052fcfabdc\transformed\swiperefreshlayout-1.1.0\res
+com.pnfapp-jetified-play-services-basement-18.2.0-3 C:\Users\neelm\.gradle\caches\transforms-3\2964e11ece6600f9dcbd0b260064fdfb\transformed\jetified-play-services-basement-18.2.0\res
+com.pnfapp-cardview-1.0.0-4 C:\Users\neelm\.gradle\caches\transforms-3\5d643a0bbde930122cf428c9dd7984ea\transformed\cardview-1.0.0\res
+com.pnfapp-sqlite-framework-2.2.0-5 C:\Users\neelm\.gradle\caches\transforms-3\6189933597da311612209ea162695438\transformed\sqlite-framework-2.2.0\res
+com.pnfapp-drawerlayout-1.1.1-6 C:\Users\neelm\.gradle\caches\transforms-3\62635de22d01cb03c3f002e8813cc0bc\transformed\drawerlayout-1.1.1\res
+com.pnfapp-jetified-AndroidPdfViewer-3.1.0-beta.3-7 C:\Users\neelm\.gradle\caches\transforms-3\63dbf8ef5d8e2c36c7b384192a8a7c46\transformed\jetified-AndroidPdfViewer-3.1.0-beta.3\res
+com.pnfapp-jetified-appcompat-resources-1.6.1-8 C:\Users\neelm\.gradle\caches\transforms-3\67acd8e1defd3688f718822751a0275b\transformed\jetified-appcompat-resources-1.6.1\res
+com.pnfapp-jetified-firebase-messaging-23.4.0-9 C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\res
+com.pnfapp-jetified-drawee-3.1.3-10 C:\Users\neelm\.gradle\caches\transforms-3\71280ee7ab4a7aed0b7f9e5685d524db\transformed\jetified-drawee-3.1.3\res
+com.pnfapp-lifecycle-runtime-2.5.1-11 C:\Users\neelm\.gradle\caches\transforms-3\7e1e2c93b5e8f158038193b487ac2b64\transformed\lifecycle-runtime-2.5.1\res
+com.pnfapp-jetified-firebase-common-20.4.2-12 C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\res
+com.pnfapp-jetified-play-services-base-18.0.1-13 C:\Users\neelm\.gradle\caches\transforms-3\86394e1ea60adc3c8ceb39ec4950a1ce\transformed\jetified-play-services-base-18.0.1\res
+com.pnfapp-core-1.9.0-14 C:\Users\neelm\.gradle\caches\transforms-3\8f1c842586f3a9df8057dcf2f42d945f\transformed\core-1.9.0\res
+com.pnfapp-jetified-autofill-1.1.0-15 C:\Users\neelm\.gradle\caches\transforms-3\942cbb9dbdc360c2b088f95043fbc24e\transformed\jetified-autofill-1.1.0\res
+com.pnfapp-recyclerview-1.1.0-16 C:\Users\neelm\.gradle\caches\transforms-3\95ad6292237203d18bfe9d918a613a66\transformed\recyclerview-1.1.0\res
+com.pnfapp-jetified-savedstate-1.2.0-17 C:\Users\neelm\.gradle\caches\transforms-3\a15abd24dafe33d696b9bf3af7551a4e\transformed\jetified-savedstate-1.2.0\res
+com.pnfapp-jetified-lifecycle-viewmodel-savedstate-2.5.1-18 C:\Users\neelm\.gradle\caches\transforms-3\a521ae96e1f8b69e2f5502cd3eb46d50\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.pnfapp-fragment-1.3.6-19 C:\Users\neelm\.gradle\caches\transforms-3\b308776aacb809dd8fbc8a5cf17b1189\transformed\fragment-1.3.6\res
+com.pnfapp-transition-1.2.0-20 C:\Users\neelm\.gradle\caches\transforms-3\b30e29c2b52753def596a2119de7d674\transformed\transition-1.2.0\res
+com.pnfapp-jetified-viewpager2-1.0.0-21 C:\Users\neelm\.gradle\caches\transforms-3\bed7dc0cca5760d87e395aba66b09356\transformed\jetified-viewpager2-1.0.0\res
+com.pnfapp-jetified-tracing-1.1.0-22 C:\Users\neelm\.gradle\caches\transforms-3\c592f272721e7aac13be05c7964a67bc\transformed\jetified-tracing-1.1.0\res
+com.pnfapp-appcompat-1.6.1-23 C:\Users\neelm\.gradle\caches\transforms-3\c5bfe443a36a4d616cc557dcfcc5e70d\transformed\appcompat-1.6.1\res
+com.pnfapp-jetified-startup-runtime-1.1.1-24 C:\Users\neelm\.gradle\caches\transforms-3\c719e5b6452c5789cc2ea1e1606829bb\transformed\jetified-startup-runtime-1.1.1\res
+com.pnfapp-jetified-core-ktx-1.9.0-25 C:\Users\neelm\.gradle\caches\transforms-3\c8c980e070db7a7db0d6155b71d8eba0\transformed\jetified-core-ktx-1.9.0\res
+com.pnfapp-jetified-annotation-experimental-1.3.0-26 C:\Users\neelm\.gradle\caches\transforms-3\cb3f3310bf4582809aac3d1ad004544c\transformed\jetified-annotation-experimental-1.3.0\res
+com.pnfapp-jetified-lifecycle-process-2.4.1-27 C:\Users\neelm\.gradle\caches\transforms-3\d0029408a2f79b61acbf36b54cd4f127\transformed\jetified-lifecycle-process-2.4.1\res
+com.pnfapp-sqlite-2.2.0-28 C:\Users\neelm\.gradle\caches\transforms-3\d31a9fd0783c3fbf6c27cd594f6c7c05\transformed\sqlite-2.2.0\res
+com.pnfapp-lifecycle-viewmodel-2.5.1-29 C:\Users\neelm\.gradle\caches\transforms-3\d604d7c526b3fdba9a629be7fd3e8488\transformed\lifecycle-viewmodel-2.5.1\res
+com.pnfapp-jetified-flipper-0.201.0-30 C:\Users\neelm\.gradle\caches\transforms-3\e3963a0e74fab347e650da5cc0023dc9\transformed\jetified-flipper-0.201.0\res
+com.pnfapp-jetified-play-services-auth-20.7.0-31 C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\res
+com.pnfapp-jetified-emoji2-1.2.0-32 C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\res
+com.pnfapp-lifecycle-livedata-core-2.5.1-33 C:\Users\neelm\.gradle\caches\transforms-3\ed371d721fbd36eb419b6bacf8e31f32\transformed\lifecycle-livedata-core-2.5.1\res
+com.pnfapp-browser-1.4.0-34 C:\Users\neelm\.gradle\caches\transforms-3\f17fcf3e17a8408ad3d963460fcd4574\transformed\browser-1.4.0\res
+com.pnfapp-jetified-activity-1.6.0-35 C:\Users\neelm\.gradle\caches\transforms-3\f67e7dc5420e21b17d7f9f8a12f1561d\transformed\jetified-activity-1.6.0\res
+com.pnfapp-coordinatorlayout-1.2.0-36 C:\Users\neelm\.gradle\caches\transforms-3\f7a4323e7b6ea10b5a6771a5fa89d9f3\transformed\coordinatorlayout-1.2.0\res
+com.pnfapp-jetified-emoji2-views-helper-1.2.0-37 C:\Users\neelm\.gradle\caches\transforms-3\f7ba1834f30bba130d6e7bb655ea1d86\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.pnfapp-material-1.9.0-38 C:\Users\neelm\.gradle\caches\transforms-3\fabedede2d6994e9374864f39fcf51b9\transformed\material-1.9.0\res
+com.pnfapp-google-services-39 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\build\generated\res\google-services\debug
+com.pnfapp-pngs-40 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\build\generated\res\pngs\debug
+com.pnfapp-resValues-41 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\build\generated\res\resValues\debug
+com.pnfapp-packageDebugResources-42 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.pnfapp-packageDebugResources-43 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.pnfapp-merged_res-44 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\build\intermediates\merged_res\debug
+com.pnfapp-debug-45 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\debug\res
+com.pnfapp-main-46 D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\res
+com.pnfapp-packaged_res-47 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-48 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-49 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-50 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\auth\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-51 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\firestore\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-52 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-53 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-picker\picker\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-54 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-55 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-56 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-localization\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-57 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-pdf\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-58 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-push-notification\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-59 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-reanimated\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-60 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-61 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
+com.pnfapp-packaged_res-62 D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-vector-icons\android\build\intermediates\packaged_res\debug
