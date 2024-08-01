@@ -42,7 +42,7 @@ export default function CustomerInfo({mobileNumber,username,mobilenumber2}) {
           setVehicleData(res.data.data);
           setLoading(false);
         }catch(err){
-          console.error('Error fetching data: ',err.message);
+          console.error('Error fetching data in customer: ',err.message);
         }
       }
       const fetchCustomerKYCData = async ()=>{
@@ -55,7 +55,7 @@ export default function CustomerInfo({mobileNumber,username,mobilenumber2}) {
           setCustomerDetails(res.data.data[0]);
           setLoading(false);
         }catch(err){
-          console.error('Error fetching data: ',err.message);
+          console.error('Error fetching data in customer: ',err.message);
         }
       }
       const capitalize = (str) => {

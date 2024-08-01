@@ -69,7 +69,7 @@ export default function TravelForm({mobileNumber,vehicleData,customerDetails}) {
         setProfile(res.data.data);
         setLoading(false);
       }catch(err){
-        console.error('Error fetching data: ',err.message);
+        console.error('Error fetching data in travel: ',err.message);
       }
     }
     // const fetchCustomerKYCData = async ()=>{

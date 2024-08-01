@@ -45,21 +45,48 @@ export default function Dash({route}) {
     }
   }, [state.isAuthenticated, navigation]);
 
-  const fetchProfileData = async ()=>{
-    try{
-      const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-      // console.log("Mobile number",modifiedMobileNumber);
+  // const fetchProfileData = async ()=>{
+  //   try{
+  //     const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
+  //     // console.log("Mobile number",modifiedMobileNumber);
+  //     let url = `${api}/customer?criteria=sheet_95100183.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
+  //     const res = await axios.get(url);
+  //     console.log(res.data.data);
+  //     setProfile(res.data.data);
+  //     //const name = res.data.data[0]["name"];
+  //     setUsername(name);
+  //     setLoading(false);
+  //   }catch(err){
+  //     console.error('Error fetching data in Dash: ',err.message);
+  //   }
+  // }
+  const fetchProfileData = async () => {
+    try {
+      const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10) : mobileNumber;
       let url = `${api}/customer?criteria=sheet_95100183.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
+      
       const res = await axios.get(url);
-      // console.log(res.data.data);
-      setProfile(res.data.data);
-      const name = res.data.data[0]["name"];
-      setUsername(name);
+      //console.log("API Response:", res.data);
+      
+      const profileData = res.data.data;
+      setProfile(profileData);
+      
+      // Check if profileData is an array and has at least one element
+      if (Array.isArray(profileData) && profileData.length > 0) {
+        // Use optional chaining to safely access the name property
+        const name = profileData[0]?.name || "No name available";
+        setUsername(name);
+      } else {
+        console.warn("No profile data found");
+        setUsername("No profile data");
+      }
+  
       setLoading(false);
-    }catch(err){
-      console.error('Error fetching data: ',err.message);
+    } catch (err) {
+      console.error('Error fetching data in Dash:', err.message);
     }
-  }
+  };
+  
 
   const getToken=async()=>{
     const authStatus = await messaging().requestPermission();
@@ -67,7 +94,7 @@ export default function Dash({route}) {
       authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
       authStatus === messaging.AuthorizationStatus.PROVISIONAL;
     if (enabled) {
-      console.log('Authorization status:', authStatus);
+      //console.log('Authorization status:', authStatus);
       const token = await messaging().getToken();
       const mobileNumber = state.loginForm.mobileNumber;
       firestore().collection('customer').doc(mobileNumber).set({
@@ -110,7 +137,7 @@ export default function Dash({route}) {
     const unsubscribe = messaging().setBackgroundMessageHandler(
       async (remoteMessage) => {
         console.log('Message handled in the background!', remoteMessage);
-        console.log('Loan Id',remoteMessage.data.screen);
+        //console.log('Loan Id',remoteMessage.data.screen);
         const loanid=remoteMessage.data.screen;
         setloanId(loanid);
         if(remoteMessage.data.screen){
@@ -131,9 +158,6 @@ export default function Dash({route}) {
       .join(' '); // Join the words back into a string
   };
   
-  // console.log(cdLoansData);
-  // console.log(mobileNumber);
-  // console.log(emiData);
   return (
     <>
     <DashHeading icon='user-circle' size={28} component='Profile' text={t('pnf')} position={80} mobileNumber={mobileNumber} />

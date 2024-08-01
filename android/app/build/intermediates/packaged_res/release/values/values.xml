@@ -2,7 +2,7 @@
 <resources>
     <integer name="react_native_dev_server_port">8081</integer>
     <integer name="react_native_inspector_proxy_port">8081</integer>
-    <string name="app_name">pnfApp</string>
+    <string name="app_name">CustomerApp</string>
     <string name="gcm_defaultSenderId" translatable="false">634739637521</string>
     <string name="google_api_key" translatable="false">AIzaSyB4mc6FnjZWNiZRJ_UDqIdOKyxK51hYbJs</string>
     <string name="google_app_id" translatable="false">1:634739637521:android:a6747b64568abc3635e0b0</string>

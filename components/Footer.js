@@ -9,17 +9,18 @@ export default function Footer() {
   return (
     <View style={styles.support}>
         <Text style={styles.text}>{t('footer')}</Text>
-        <Text style={styles.text}>support@example.com</Text>
+        {/* <Text style={styles.text}>support@example.com</Text> */}
     </View>
   )
 }
 
 const styles = StyleSheet.create({
     support:{
-        marginHorizontal:width*0.03,
-        marginVertical:width*0.03
+        marginHorizontal:width*0.06,
+        marginVertical:width*0.05
     },
     text:{
-      color:'#666666'
+      color:'#666666',
+      fontSize: 16
     }
 })

@@ -1,6 +1,5 @@
-import { StyleSheet, Text, View,TextInput,Dimensions } from 'react-native'
-// import { View, TextInput, Button } from 'react-native';
-import React,{useEffect, useState} from 'react'
+import { StyleSheet, View, Dimensions, Alert } from 'react-native'
+import React,{useState} from 'react'
 import InputDetails from './InputDetails'
 import Button from './Button';
 import { useTranslation } from 'react-i18next';
@@ -8,101 +7,70 @@ import { useNavigation } from '@react-navigation/native';
 import axios from 'axios';
 import { useAuth } from '../pages/AuthContext';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Toast from 'react-native-toast-message';
+import ShowToast from './ShowToast';
 
-const api="http://10.0.2.2:5000"
+const api="http://10.0.2.2:4000"
 const { width, height } = Dimensions.get('window');
+
+
 
 export default function LoginForm() {
   const {t} =useTranslation();
   const navigation = useNavigation();
   const { dispatch,state,handleLogin } = useAuth();
   const [mobileNumber, setMobileNumber] = useState('');
-  const [cdLoansData, setCdLoansData] = useState([]);
-  const [emiData, setEmiData] = useState([]);
+  const [loading, setLoading] = useState(false);
 
-  // console.log(state);
-  // useEffect(()=>{
-  //   fetchCdLoansData();
-  //   fetchEmiData();
-  // },[cdLoansData,emiData,mobileNumber])
-
-  // const fetchCdLoansData = async ()=>{
-  //   // console.log("mobileNumber",mobileNumber)
-  //   try{
-  //     let url=`${api}/cdloans?criteria=sheet_23049202.column_56.column_87=${mobileNumber}`;
-  //     const res = await axios.get(url);
-  //     setCdLoansData(res.data.data);
-  //     // console.log(res.data.data);
-  //   }catch(err){
-  //     console.error('Error fetching data: ',err.message);
-  //   }
-  // }
-
-  // const fetchEmiData = async ()=>{
-  //   // console.log("mobileNumber",mobileNumber)
-  //   try{
-  //     let url=`${api}/emi?criteria=sheet_26521917.column_35.column_87=${mobileNumber}`;
-  //     const res = await axios.get(url);
-  //     setEmiData(res.data.data);
-  //     // console.log(res.data.data);
-  //   }catch(err){
-  //     console.error('Error fetching data: ',err.message);
-  //   }
-  // }
- 
-  const handlePress = async() =>{
-    // fetchCdLoansData();
-    // fetchEmiData();
-    if(mobileNumber.length === 10){
-      try{
-        // Simulate a successful login
-        const mockResponse = { data: { token: 'mockToken' } };
-
-        // Uncomment this line to simulate an error during login
-        // throw new Error('Simulated login error');
-
-        // Simulate a delay to mimic a network request
-        await new Promise((resolve) => setTimeout(resolve, 1000));
-
-        // Use the mock response for the token
-        const { token } = mockResponse.data;
-        // Save the token and update authentication state
-        await AsyncStorage.setItem('authToken', token);
-        await AsyncStorage.setItem('mobileNumber', mobileNumber);
-        handleLogin(token,mobileNumber);
-        // navigation.navigate('Dash');
-        // Update login form fields in the state
-        dispatch({
-          type: 'SET_STATE',
-          payload: {
-            loginForm: {
-              mobileNumber
+  const handlePress = async () => {
+    if(mobileNumber === ''){
+      Alert.alert("Please enter the mobile number");
+      return;
+    }
+    setLoading(true);
+      try {
+        const verifiedValue = encodeURIComponent(mobileNumber);
+        // Make the request to validate the mobile number
+        const response = await axios.post(`${api}/customer/validate?verifyValue=${verifiedValue}`);
+        if (response.status === 200) {
+          // Simulate a successful login
+          const mockResponse = { data: { token: 'mockToken' } };
+          await new Promise((resolve) => setTimeout(resolve, 1000));
+          const { token } = mockResponse.data;
+          await AsyncStorage.setItem('authToken', token);
+          await AsyncStorage.setItem('mobileNumber', mobileNumber);
+          await handleLogin(token, mobileNumber);
+          dispatch({
+            type: 'SET_STATE',
+            payload: {
+              loginForm: {
+                mobileNumber
+              },
             },
-          },
-        });
-        dispatch({ type: 'LOGIN' });
-        navigation.navigate('Dash');
-      }catch(err){
-        console.error('Error during login:', err);
+          });
+          dispatch({ type: 'LOGIN' });
+          navigation.navigate('Dash');
+        } else {
+          ShowToast('error', 'Invalid Mobile Number', 'Please check the mobile number and try again.');
+        }
+      } catch (err) {
+        if (err.response) {
+          if (err.response.status === 404) {
+            ShowToast('error', "Not Found", "The mobile number was not found")
+          } else if (err.response.status === 403) {
+            ShowToast('error', 'Forbidden', 'You do not have permission to access this resource')
+          } else {
+            ShowToast('error', 'Request Error', 'An error occured while making the request. Please try again')
+          }
+        } else {
+          ShowToast('error', 'Network Error', 'An error occurred while trying to connect. Please check your network and try again')
+        }
+        //console.error('Error during login:', err);
       }
-    }else if(mobileNumber>10 || mobileNumber<10){
-      Toast.show({
-        type: 'error',
-        position: 'bottom',
-        text1: t('toastloginerrmessage1'),
-        text2: t('toastloginerrmessage2'),
-        visibilityTime: 3000, // 3 seconds duration
-        autoHide: true,
-        topOffset: 30,
-        bottomOffset: 40,
-      });
-    }
-    else{
-      navigation.navigate('Login')
-    }
-    // console.log(mobileNumber);
-  }
+      finally{
+        setLoading(false);
+      }
+  };
+  
 
   return (
     <View style={styles.FormContainer}>
@@ -118,7 +86,7 @@ export default function LoginForm() {
           placeholder={t('otpPlace')}
           placeholderTextColor='#888888' 
       />
-      <Button text={t('login')} width={width*0.28} onPress={handlePress} />
+      <Button text={t('login')} width={width*0.28} onPress={handlePress} loading={loading}/>
     </View>
   )
 }

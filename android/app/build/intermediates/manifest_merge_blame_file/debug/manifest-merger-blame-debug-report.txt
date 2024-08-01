@@ -9,564 +9,564 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:4:5-67
-11-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:4:22-64
+11-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-12-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:5:5-77
-12-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:5:22-74
+12-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:5:5-77
+12-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:5:22-74
 13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-13-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:6:5-81
-13-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:6:22-78
+13-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:6:5-81
+13-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:6:22-78
 14    <uses-permission android:name="android.permission.VIBRATE" />
-14-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:7:5-66
-14-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:7:22-63
+14-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:7:5-66
+14-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:7:22-63
 15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:8:5-68
-15-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:8:22-65
+15-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:8:5-68
+15-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:8:22-65
 16    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
-16-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:9:5-85
-16-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:9:22-82
+16-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:9:5-85
+16-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:9:22-82
 17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-17-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:10:5-81
-17-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:10:22-78
+17-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:10:5-81
+17-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:10:22-78
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
-18-->[:react-native-firebase_auth] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
-18-->[:react-native-firebase_auth] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+18-->[:react-native-firebase_auth] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+18-->[:react-native-firebase_auth] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to read and write the expansion files on shared storage -->
-19-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-76
-19-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:22-73
+19-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:5-76
+19-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:22-73
 20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required to read and write the expansion files on shared storage for Android 11 -->
-20-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-81
-20-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:22-78
+20-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:5-81
+20-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:22-78
 21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required to to download files without a notification -->
-21-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:5-80
-21-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:22-77
+21-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:5-80
+21-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:22-77
 22    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-22-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:5-88
-22-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:22-85
+22-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:5-88
+22-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:22-85
 23    <!--
 24    This manifest file is used only by Gradle to configure debug-only capabilities
 25    for React Native Apps.
 26    -->
 27    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-27-->[com.facebook.react:react-android:0.73.0] C:\Users\neelm\.gradle\caches\transforms-3\12c7ca77f61b27b86d462991d806bbcd\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:16:5-78
-27-->[com.facebook.react:react-android:0.73.0] C:\Users\neelm\.gradle\caches\transforms-3\12c7ca77f61b27b86d462991d806bbcd\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:16:22-75
+27-->[com.facebook.react:react-android:0.73.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/12c7ca77f61b27b86d462991d806bbcd/transformed/jetified-react-android-0.73.0-debug/AndroidManifest.xml:16:5-78
+27-->[com.facebook.react:react-android:0.73.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/12c7ca77f61b27b86d462991d806bbcd/transformed/jetified-react-android-0.73.0-debug/AndroidManifest.xml:16:22-75
 28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-28-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:23:5-77
-28-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:23:22-74
+28-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:23:5-77
+28-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:23:22-74
 29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-29-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:26:5-82
-29-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:26:22-79
+29-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:22-79
 30    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-30-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\neelm\.gradle\caches\transforms-3\a529de5c30124eb68a9b061ee3306a61\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
-30-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\neelm\.gradle\caches\transforms-3\a529de5c30124eb68a9b061ee3306a61\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+30-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/a529de5c30124eb68a9b061ee3306a61/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+30-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/a529de5c30124eb68a9b061ee3306a61/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
 31
 32    <permission
-32-->[androidx.core:core:1.9.0] C:\Users\neelm\.gradle\caches\transforms-3\8f1c842586f3a9df8057dcf2f42d945f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+32-->[androidx.core:core:1.9.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/8f1c842586f3a9df8057dcf2f42d945f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 33        android:name="com.pnfapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-33-->[androidx.core:core:1.9.0] C:\Users\neelm\.gradle\caches\transforms-3\8f1c842586f3a9df8057dcf2f42d945f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+33-->[androidx.core:core:1.9.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/8f1c842586f3a9df8057dcf2f42d945f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 34        android:protectionLevel="signature" />
-34-->[androidx.core:core:1.9.0] C:\Users\neelm\.gradle\caches\transforms-3\8f1c842586f3a9df8057dcf2f42d945f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+34-->[androidx.core:core:1.9.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/8f1c842586f3a9df8057dcf2f42d945f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 35
 36    <uses-permission android:name="com.pnfapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
-36-->[androidx.core:core:1.9.0] C:\Users\neelm\.gradle\caches\transforms-3\8f1c842586f3a9df8057dcf2f42d945f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-36-->[androidx.core:core:1.9.0] C:\Users\neelm\.gradle\caches\transforms-3\8f1c842586f3a9df8057dcf2f42d945f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+36-->[androidx.core:core:1.9.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/8f1c842586f3a9df8057dcf2f42d945f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/8f1c842586f3a9df8057dcf2f42d945f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 37    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
 38    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
 39    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
 40    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
 41    <!-- for Samsung -->
 42    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
-42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
 43    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
-43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
 44    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
-44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
 45    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
-45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
 46    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
-46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
 47    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
-47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
 48    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
-48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
 49    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
-49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
 50    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
-50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
 51    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
-51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
 52    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
-52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
 53    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
-53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
 54    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
-54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
 55    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
-55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
 56    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
-56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
 57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
-57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\neelm\.gradle\caches\transforms-3\aaeda3e289938fcfa5aa9f58083a0fc7\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/gowthamikarnati/.gradle/caches/transforms-3/aaeda3e289938fcfa5aa9f58083a0fc7/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 58
 59    <application
-59-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:12:5-31:19
+59-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:12:5-31:19
 60        android:name="com.pnfapp.MainApplication"
-60-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:13:7-38
+60-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:13:7-38
 61        android:allowBackup="false"
-61-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:17:7-34
+61-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:17:7-34
 62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-62-->[androidx.core:core:1.9.0] C:\Users\neelm\.gradle\caches\transforms-3\8f1c842586f3a9df8057dcf2f42d945f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+62-->[androidx.core:core:1.9.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/8f1c842586f3a9df8057dcf2f42d945f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 63        android:debuggable="true"
 64        android:extractNativeLibs="true"
 65        android:icon="@mipmap/ic_launcher"
-65-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:15:7-41
+65-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:15:7-41
 66        android:label="@string/app_name"
-66-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:14:7-39
+66-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:14:7-39
 67        android:roundIcon="@mipmap/ic_launcher_round"
-67-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:16:7-52
+67-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:16:7-52
 68        android:theme="@style/AppTheme"
-68-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:18:7-38
+68-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:18:7-38
 69        android:usesCleartextTraffic="true" >
-69-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\debug\AndroidManifest.xml:6:9-44
+69-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/debug/AndroidManifest.xml:6:9-44
 70        <activity
-70-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:19:7-30:18
+70-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:19:7-30:18
 71            android:name="com.pnfapp.MainActivity"
-71-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:20:9-37
+71-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:20:9-37
 72            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-72-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:22:9-118
+72-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:22:9-118
 73            android:exported="true"
-73-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:25:9-32
+73-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:25:9-32
 74            android:label="@string/app_name"
-74-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:21:9-41
+74-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:21:9-41
 75            android:launchMode="singleTask"
-75-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:23:9-40
+75-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:23:9-40
 76            android:windowSoftInputMode="adjustResize" >
-76-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:24:9-51
+76-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:24:9-51
 77            <intent-filter>
-77-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:26:9-29:25
+77-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:26:9-29:25
 78                <action android:name="android.intent.action.MAIN" />
-78-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:27:13-65
-78-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:27:21-62
+78-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:27:13-65
+78-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:27:21-62
 79
 80                <category android:name="android.intent.category.LAUNCHER" />
-80-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:28:13-73
-80-->D:\Company Riktam\Company Training\PNF\pnfApp\android\app\src\main\AndroidManifest.xml:28:23-70
+80-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:28:13-73
+80-->/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app/src/main/AndroidManifest.xml:28:23-70
 81            </intent-filter>
 82        </activity>
 83
 84        <service
-84-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-14:40
+84-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
 85            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
-85-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-103
+85-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
 86            android:exported="false" />
-86-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+86-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
 87        <service
-87-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:19
+87-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
 88            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-88-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-95
+88-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
 89            android:exported="false" >
-89-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+89-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
 90            <intent-filter>
-90-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:29
+90-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
 91                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-91-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-78
-91-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:25-75
+91-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+91-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
 92            </intent-filter>
 93        </service>
 94
 95        <receiver
-95-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-30:20
+95-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
 96            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-96-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-96
+96-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
 97            android:exported="true"
-97-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-36
+97-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
 98            android:permission="com.google.android.c2dm.permission.SEND" >
-98-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-73
+98-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
 99            <intent-filter>
-99-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:29
+99-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 100                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-100-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-81
-100-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-78
+100-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+100-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
 101            </intent-filter>
 102        </receiver>
 103
 104        <meta-data
-104-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-34:36
+104-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
 105            android:name="firebase_messaging_auto_init_enabled"
-105-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-64
+105-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
 106            android:value="true" />
-106-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-33
+106-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
 107        <meta-data
-107-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-37:32
+107-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
 108            android:name="com.google.firebase.messaging.default_notification_channel_id"
-108-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-89
+108-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
 109            android:value="" />
-109-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-29
+109-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
 110        <meta-data
-110-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:47
+110-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
 111            android:name="com.google.firebase.messaging.default_notification_color"
-111-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-84
+111-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
 112            android:resource="@color/white" />
-112-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-44
+112-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
 113        <meta-data
-113-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:36
+113-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
 114            android:name="app_data_collection_default_enabled"
-114-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-63
+114-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
 115            android:value="true" />
-115-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-33
+115-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
 116
 117        <service
-117-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:19
+117-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
 118            android:name="com.google.firebase.components.ComponentDiscoveryService"
-118-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-84
+118-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
 119            android:directBootAware="true"
-119-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-43
+119-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
 120            android:exported="false" >
-120-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+120-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 121            <meta-data
-121-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:85
+121-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
 122                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-122-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-120
+122-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
 123                android:value="com.google.firebase.components.ComponentRegistrar" />
-123-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-82
+123-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
 124            <meta-data
-124-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+124-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
 125                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-125-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+125-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
 126                android:value="com.google.firebase.components.ComponentRegistrar" />
-126-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+126-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
 127            <meta-data
-127-->[com.google.firebase:firebase-firestore:24.10.1] C:\Users\neelm\.gradle\caches\transforms-3\506142f03143ecd1609484e55815b8e0\transformed\jetified-firebase-firestore-24.10.1\AndroidManifest.xml:17:13-19:85
+127-->[com.google.firebase:firebase-firestore:24.10.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/506142f03143ecd1609484e55815b8e0/transformed/jetified-firebase-firestore-24.10.1/AndroidManifest.xml:17:13-19:85
 128                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-128-->[com.google.firebase:firebase-firestore:24.10.1] C:\Users\neelm\.gradle\caches\transforms-3\506142f03143ecd1609484e55815b8e0\transformed\jetified-firebase-firestore-24.10.1\AndroidManifest.xml:18:17-122
+128-->[com.google.firebase:firebase-firestore:24.10.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/506142f03143ecd1609484e55815b8e0/transformed/jetified-firebase-firestore-24.10.1/AndroidManifest.xml:18:17-122
 129                android:value="com.google.firebase.components.ComponentRegistrar" />
-129-->[com.google.firebase:firebase-firestore:24.10.1] C:\Users\neelm\.gradle\caches\transforms-3\506142f03143ecd1609484e55815b8e0\transformed\jetified-firebase-firestore-24.10.1\AndroidManifest.xml:19:17-82
+129-->[com.google.firebase:firebase-firestore:24.10.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/506142f03143ecd1609484e55815b8e0/transformed/jetified-firebase-firestore-24.10.1/AndroidManifest.xml:19:17-82
 130            <meta-data
-130-->[com.google.firebase:firebase-firestore:24.10.1] C:\Users\neelm\.gradle\caches\transforms-3\506142f03143ecd1609484e55815b8e0\transformed\jetified-firebase-firestore-24.10.1\AndroidManifest.xml:20:13-22:85
+130-->[com.google.firebase:firebase-firestore:24.10.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/506142f03143ecd1609484e55815b8e0/transformed/jetified-firebase-firestore-24.10.1/AndroidManifest.xml:20:13-22:85
 131                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-131-->[com.google.firebase:firebase-firestore:24.10.1] C:\Users\neelm\.gradle\caches\transforms-3\506142f03143ecd1609484e55815b8e0\transformed\jetified-firebase-firestore-24.10.1\AndroidManifest.xml:21:17-111
+131-->[com.google.firebase:firebase-firestore:24.10.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/506142f03143ecd1609484e55815b8e0/transformed/jetified-firebase-firestore-24.10.1/AndroidManifest.xml:21:17-111
 132                android:value="com.google.firebase.components.ComponentRegistrar" />
-132-->[com.google.firebase:firebase-firestore:24.10.1] C:\Users\neelm\.gradle\caches\transforms-3\506142f03143ecd1609484e55815b8e0\transformed\jetified-firebase-firestore-24.10.1\AndroidManifest.xml:22:17-82
+132-->[com.google.firebase:firebase-firestore:24.10.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/506142f03143ecd1609484e55815b8e0/transformed/jetified-firebase-firestore-24.10.1/AndroidManifest.xml:22:17-82
 133            <meta-data
-133-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:57:13-59:85
+133-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:57:13-59:85
 134                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-134-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:58:17-122
+134-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:58:17-122
 135                android:value="com.google.firebase.components.ComponentRegistrar" />
-135-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:59:17-82
+135-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:59:17-82
 136            <meta-data
-136-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:60:13-62:85
+136-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:60:13-62:85
 137                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-137-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:61:17-119
+137-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:61:17-119
 138                android:value="com.google.firebase.components.ComponentRegistrar" />
-138-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:62:17-82
+138-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:62:17-82
 139            <meta-data
-139-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\neelm\.gradle\caches\transforms-3\6c8943677d35bde7ac244a163f9cda99\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+139-->[com.google.firebase:firebase-installations:17.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/6c8943677d35bde7ac244a163f9cda99/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
 140                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-140-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\neelm\.gradle\caches\transforms-3\6c8943677d35bde7ac244a163f9cda99\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+140-->[com.google.firebase:firebase-installations:17.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/6c8943677d35bde7ac244a163f9cda99/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
 141                android:value="com.google.firebase.components.ComponentRegistrar" />
-141-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\neelm\.gradle\caches\transforms-3\6c8943677d35bde7ac244a163f9cda99\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+141-->[com.google.firebase:firebase-installations:17.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/6c8943677d35bde7ac244a163f9cda99/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
 142            <meta-data
-142-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\neelm\.gradle\caches\transforms-3\6c8943677d35bde7ac244a163f9cda99\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+142-->[com.google.firebase:firebase-installations:17.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/6c8943677d35bde7ac244a163f9cda99/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
 143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-143-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\neelm\.gradle\caches\transforms-3\6c8943677d35bde7ac244a163f9cda99\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+143-->[com.google.firebase:firebase-installations:17.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/6c8943677d35bde7ac244a163f9cda99/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
 144                android:value="com.google.firebase.components.ComponentRegistrar" />
-144-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\neelm\.gradle\caches\transforms-3\6c8943677d35bde7ac244a163f9cda99\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+144-->[com.google.firebase:firebase-installations:17.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/6c8943677d35bde7ac244a163f9cda99/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
 145            <meta-data
-145-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\5ae24fa22043c8dc18d8914227deab27\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+145-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/5ae24fa22043c8dc18d8914227deab27/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
 146                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-146-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\5ae24fa22043c8dc18d8914227deab27\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+146-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/5ae24fa22043c8dc18d8914227deab27/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
 147                android:value="com.google.firebase.components.ComponentRegistrar" />
-147-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\5ae24fa22043c8dc18d8914227deab27\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+147-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/5ae24fa22043c8dc18d8914227deab27/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
 148            <meta-data
-148-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+148-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
 149                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-149-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+149-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
 150                android:value="com.google.firebase.components.ComponentRegistrar" />
-150-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+150-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
 151            <meta-data
-151-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\neelm\.gradle\caches\transforms-3\98c8fd6ad3162d0e5d829990d72781db\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+151-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/gowthamikarnati/.gradle/caches/transforms-3/98c8fd6ad3162d0e5d829990d72781db/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
 152                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-152-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\neelm\.gradle\caches\transforms-3\98c8fd6ad3162d0e5d829990d72781db\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+152-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/gowthamikarnati/.gradle/caches/transforms-3/98c8fd6ad3162d0e5d829990d72781db/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
 153                android:value="com.google.firebase.components.ComponentRegistrar" />
-153-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\neelm\.gradle\caches\transforms-3\98c8fd6ad3162d0e5d829990d72781db\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+153-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/gowthamikarnati/.gradle/caches/transforms-3/98c8fd6ad3162d0e5d829990d72781db/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
 154        </service>
 155
 156        <provider
-156-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-27:38
+156-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
 157            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-157-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-88
+157-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
 158            android:authorities="com.pnfapp.reactnativefirebaseappinitprovider"
-158-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-86
+158-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
 159            android:exported="false"
-159-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+159-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
 160            android:initOrder="99" />
-160-->[:react-native-firebase_app] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-35
+160-->[:react-native-firebase_app] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
 161        <provider
-161-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-43:20
+161-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-43:20
 162            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
-162-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-70
+162-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-70
 163            android:authorities="com.pnfapp.provider"
-163-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-60
+163-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-60
 164            android:exported="false"
-164-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-37
+164-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-37
 165            android:grantUriPermissions="true" >
-165-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-47
+165-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-47
 166            <meta-data
-166-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-42:58
+166-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-42:58
 167                android:name="android.support.FILE_PROVIDER_PATHS"
-167-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-67
+167-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:17-67
 168                android:resource="@xml/provider_paths" />
-168-->[:react-native-blob-util] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:17-55
+168-->[:react-native-blob-util] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:17-55
 169        </provider>
 170
 171        <activity
-171-->[com.facebook.react:react-android:0.73.0] C:\Users\neelm\.gradle\caches\transforms-3\12c7ca77f61b27b86d462991d806bbcd\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:19:9-21:40
+171-->[com.facebook.react:react-android:0.73.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/12c7ca77f61b27b86d462991d806bbcd/transformed/jetified-react-android-0.73.0-debug/AndroidManifest.xml:19:9-21:40
 172            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-172-->[com.facebook.react:react-android:0.73.0] C:\Users\neelm\.gradle\caches\transforms-3\12c7ca77f61b27b86d462991d806bbcd\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:20:13-77
+172-->[com.facebook.react:react-android:0.73.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/12c7ca77f61b27b86d462991d806bbcd/transformed/jetified-react-android-0.73.0-debug/AndroidManifest.xml:20:13-77
 173            android:exported="false" />
-173-->[com.facebook.react:react-android:0.73.0] C:\Users\neelm\.gradle\caches\transforms-3\12c7ca77f61b27b86d462991d806bbcd\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:21:13-37
+173-->[com.facebook.react:react-android:0.73.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/12c7ca77f61b27b86d462991d806bbcd/transformed/jetified-react-android-0.73.0-debug/AndroidManifest.xml:21:13-37
 174        <activity
-174-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+174-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
 175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-175-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+175-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
 176            android:excludeFromRecents="true"
-176-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+176-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
 177            android:exported="true"
-177-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+177-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
 178            android:launchMode="singleTask"
-178-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+178-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
 179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-179-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+179-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
 180            <intent-filter>
-180-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+180-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
 181                <action android:name="android.intent.action.VIEW" />
-181-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
-181-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+181-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+181-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
 182
 183                <category android:name="android.intent.category.DEFAULT" />
-183-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
-183-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+183-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+183-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
 184                <category android:name="android.intent.category.BROWSABLE" />
-184-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
-184-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+184-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+184-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
 185
 186                <data
-186-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+186-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:41:17-44:51
 187                    android:host="firebase.auth"
-187-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+187-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:42:21-49
 188                    android:path="/"
-188-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+188-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:43:21-37
 189                    android:scheme="genericidp" />
-189-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+189-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:44:21-48
 190            </intent-filter>
 191        </activity>
 192        <activity
-192-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+192-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
 193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-193-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+193-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
 194            android:excludeFromRecents="true"
-194-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+194-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
 195            android:exported="true"
-195-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+195-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
 196            android:launchMode="singleTask"
-196-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+196-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
 197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-197-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+197-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
 198            <intent-filter>
-198-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+198-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
 199                <action android:name="android.intent.action.VIEW" />
-199-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
-199-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+199-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+199-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
 200
 201                <category android:name="android.intent.category.DEFAULT" />
-201-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
-201-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+201-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+201-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
 202                <category android:name="android.intent.category.BROWSABLE" />
-202-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
-202-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+202-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+202-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
 203
 204                <data
-204-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+204-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:41:17-44:51
 205                    android:host="firebase.auth"
-205-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+205-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:42:21-49
 206                    android:path="/"
-206-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+206-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:43:21-37
 207                    android:scheme="recaptcha" />
-207-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\neelm\.gradle\caches\transforms-3\051d26c3f9792acd1a24fa6560cf1ea3\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+207-->[com.google.firebase:firebase-auth:22.3.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/051d26c3f9792acd1a24fa6560cf1ea3/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:44:21-48
 208            </intent-filter>
 209        </activity>
 210
 211        <receiver
-211-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:29:9-40:20
+211-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:29:9-40:20
 212            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-212-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:30:13-78
+212-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:30:13-78
 213            android:exported="true"
-213-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:31:13-36
+213-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:31:13-36
 214            android:permission="com.google.android.c2dm.permission.SEND" >
-214-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:32:13-73
+214-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:32:13-73
 215            <intent-filter>
-215-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:29
+215-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 216                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-216-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-81
-216-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-78
+216-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+216-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
 217            </intent-filter>
 218
 219            <meta-data
-219-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:37:13-39:40
+219-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:37:13-39:40
 220                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-220-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:38:17-92
+220-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:38:17-92
 221                android:value="true" />
-221-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:39:17-37
+221-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:39:17-37
 222        </receiver>
 223        <!--
 224             FirebaseMessagingService performs security checks at runtime,
 225             but set to not exported to explicitly avoid allowing another app to call it.
 226        -->
 227        <service
-227-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:46:9-53:19
+227-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:46:9-53:19
 228            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-228-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:47:13-82
+228-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:47:13-82
 229            android:directBootAware="true"
-229-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:48:13-43
+229-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:48:13-43
 230            android:exported="false" >
-230-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\neelm\.gradle\caches\transforms-3\68e7207e10013d4b2bc1d76b9cabd900\transformed\jetified-firebase-messaging-23.4.0\AndroidManifest.xml:49:13-37
+230-->[com.google.firebase:firebase-messaging:23.4.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/68e7207e10013d4b2bc1d76b9cabd900/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:49:13-37
 231            <intent-filter android:priority="-500" >
-231-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:29
+231-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
 232                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-232-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-78
-232-->[:react-native-firebase_messaging] D:\Company Riktam\Company Training\PNF\pnfApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:25-75
+232-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+232-->[:react-native-firebase_messaging] /Users/gowthamikarnati/Desktop/reactnative/Music-Player/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
 233            </intent-filter>
 234        </service>
 235
 236        <activity
-236-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+236-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
 237            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-237-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+237-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
 238            android:excludeFromRecents="true"
-238-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+238-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
 239            android:exported="false"
-239-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+239-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
 240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-240-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+240-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
 241        <!--
 242            Service handling Google Sign-In user revocation. For apps that do not integrate with
 243            Google Sign-In, this service will never be started.
 244        -->
 245        <service
-245-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+245-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
 246            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-246-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+246-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
 247            android:exported="true"
-247-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+247-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
 248            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-248-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+248-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
 249            android:visibleToInstantApps="true" />
-249-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\neelm\.gradle\caches\transforms-3\e47a34dc6eff0614efabfba8455487a5\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+249-->[com.google.android.gms:play-services-auth:20.7.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e47a34dc6eff0614efabfba8455487a5/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
 250
 251        <activity
-251-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\neelm\.gradle\caches\transforms-3\86394e1ea60adc3c8ceb39ec4950a1ce\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+251-->[com.google.android.gms:play-services-base:18.0.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/86394e1ea60adc3c8ceb39ec4950a1ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 252            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-252-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\neelm\.gradle\caches\transforms-3\86394e1ea60adc3c8ceb39ec4950a1ce\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+252-->[com.google.android.gms:play-services-base:18.0.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/86394e1ea60adc3c8ceb39ec4950a1ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 253            android:exported="false"
-253-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\neelm\.gradle\caches\transforms-3\86394e1ea60adc3c8ceb39ec4950a1ce\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+253-->[com.google.android.gms:play-services-base:18.0.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/86394e1ea60adc3c8ceb39ec4950a1ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
 254            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-254-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\neelm\.gradle\caches\transforms-3\86394e1ea60adc3c8ceb39ec4950a1ce\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+254-->[com.google.android.gms:play-services-base:18.0.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/86394e1ea60adc3c8ceb39ec4950a1ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 255
 256        <provider
-256-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+256-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
 257            android:name="com.google.firebase.provider.FirebaseInitProvider"
-257-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+257-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
 258            android:authorities="com.pnfapp.firebaseinitprovider"
-258-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+258-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
 259            android:directBootAware="true"
-259-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+259-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
 260            android:exported="false"
-260-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+260-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
 261            android:initOrder="100" />
-261-->[com.google.firebase:firebase-common:20.4.2] C:\Users\neelm\.gradle\caches\transforms-3\806361096a04046e55a167608c0dd155\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+261-->[com.google.firebase:firebase-common:20.4.2] /Users/gowthamikarnati/.gradle/caches/transforms-3/806361096a04046e55a167608c0dd155/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
 262
 263        <meta-data
-263-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\neelm\.gradle\caches\transforms-3\2964e11ece6600f9dcbd0b260064fdfb\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+263-->[com.google.android.gms:play-services-basement:18.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/2964e11ece6600f9dcbd0b260064fdfb/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
 264            android:name="com.google.android.gms.version"
-264-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\neelm\.gradle\caches\transforms-3\2964e11ece6600f9dcbd0b260064fdfb\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+264-->[com.google.android.gms:play-services-basement:18.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/2964e11ece6600f9dcbd0b260064fdfb/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
 265            android:value="@integer/google_play_services_version" />
-265-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\neelm\.gradle\caches\transforms-3\2964e11ece6600f9dcbd0b260064fdfb\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+265-->[com.google.android.gms:play-services-basement:18.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/2964e11ece6600f9dcbd0b260064fdfb/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
 266
 267        <service
-267-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\596eb2741232381791fede067debd660\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+267-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/596eb2741232381791fede067debd660/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
 268            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-268-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\596eb2741232381791fede067debd660\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+268-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/596eb2741232381791fede067debd660/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
 269            android:exported="false" >
-269-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\596eb2741232381791fede067debd660\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+269-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/596eb2741232381791fede067debd660/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
 270            <meta-data
-270-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\596eb2741232381791fede067debd660\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+270-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/596eb2741232381791fede067debd660/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
 271                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-271-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\596eb2741232381791fede067debd660\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+271-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/596eb2741232381791fede067debd660/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
 272                android:value="cct" />
-272-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\596eb2741232381791fede067debd660\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+272-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/596eb2741232381791fede067debd660/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
 273        </service>
 274        <service
-274-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\829f70122e9ba95170cd89ebeb8f7f41\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+274-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/829f70122e9ba95170cd89ebeb8f7f41/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
 275            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-275-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\829f70122e9ba95170cd89ebeb8f7f41\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+275-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/829f70122e9ba95170cd89ebeb8f7f41/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
 276            android:exported="false"
-276-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\829f70122e9ba95170cd89ebeb8f7f41\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+276-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/829f70122e9ba95170cd89ebeb8f7f41/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
 277            android:permission="android.permission.BIND_JOB_SERVICE" >
-277-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\829f70122e9ba95170cd89ebeb8f7f41\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+277-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/829f70122e9ba95170cd89ebeb8f7f41/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
 278        </service>
 279
 280        <receiver
-280-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\829f70122e9ba95170cd89ebeb8f7f41\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+280-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/829f70122e9ba95170cd89ebeb8f7f41/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
 281            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-281-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\829f70122e9ba95170cd89ebeb8f7f41\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+281-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/829f70122e9ba95170cd89ebeb8f7f41/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
 282            android:exported="false" />
-282-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\neelm\.gradle\caches\transforms-3\829f70122e9ba95170cd89ebeb8f7f41\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+282-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/gowthamikarnati/.gradle/caches/transforms-3/829f70122e9ba95170cd89ebeb8f7f41/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
 283
 284        <provider
-284-->[androidx.emoji2:emoji2:1.2.0] C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+284-->[androidx.emoji2:emoji2:1.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e664e654389888f8202cc40240d57173/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 285            android:name="androidx.startup.InitializationProvider"
-285-->[androidx.emoji2:emoji2:1.2.0] C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+285-->[androidx.emoji2:emoji2:1.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e664e654389888f8202cc40240d57173/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 286            android:authorities="com.pnfapp.androidx-startup"
-286-->[androidx.emoji2:emoji2:1.2.0] C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+286-->[androidx.emoji2:emoji2:1.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e664e654389888f8202cc40240d57173/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 287            android:exported="false" >
-287-->[androidx.emoji2:emoji2:1.2.0] C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+287-->[androidx.emoji2:emoji2:1.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e664e654389888f8202cc40240d57173/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 288            <meta-data
-288-->[androidx.emoji2:emoji2:1.2.0] C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+288-->[androidx.emoji2:emoji2:1.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e664e654389888f8202cc40240d57173/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 289                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-289-->[androidx.emoji2:emoji2:1.2.0] C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+289-->[androidx.emoji2:emoji2:1.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e664e654389888f8202cc40240d57173/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 290                android:value="androidx.startup" />
-290-->[androidx.emoji2:emoji2:1.2.0] C:\Users\neelm\.gradle\caches\transforms-3\e664e654389888f8202cc40240d57173\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+290-->[androidx.emoji2:emoji2:1.2.0] /Users/gowthamikarnati/.gradle/caches/transforms-3/e664e654389888f8202cc40240d57173/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 291            <meta-data
-291-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\neelm\.gradle\caches\transforms-3\d0029408a2f79b61acbf36b54cd4f127\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+291-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/d0029408a2f79b61acbf36b54cd4f127/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 292                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-292-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\neelm\.gradle\caches\transforms-3\d0029408a2f79b61acbf36b54cd4f127\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+292-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/d0029408a2f79b61acbf36b54cd4f127/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 293                android:value="androidx.startup" />
-293-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\neelm\.gradle\caches\transforms-3\d0029408a2f79b61acbf36b54cd4f127\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+293-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/gowthamikarnati/.gradle/caches/transforms-3/d0029408a2f79b61acbf36b54cd4f127/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 294        </provider>
 295
 296        <meta-data
-296-->[com.facebook.soloader:soloader:0.10.5] C:\Users\neelm\.gradle\caches\transforms-3\fe4b3c418a9e79d451e4d1f4310af072\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+296-->[com.facebook.soloader:soloader:0.10.5] /Users/gowthamikarnati/.gradle/caches/transforms-3/fe4b3c418a9e79d451e4d1f4310af072/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
 297            android:name="com.facebook.soloader.enabled"
-297-->[com.facebook.soloader:soloader:0.10.5] C:\Users\neelm\.gradle\caches\transforms-3\fe4b3c418a9e79d451e4d1f4310af072\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+297-->[com.facebook.soloader:soloader:0.10.5] /Users/gowthamikarnati/.gradle/caches/transforms-3/fe4b3c418a9e79d451e4d1f4310af072/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
 298            android:value="false" />
-298-->[com.facebook.soloader:soloader:0.10.5] C:\Users\neelm\.gradle\caches\transforms-3\fe4b3c418a9e79d451e4d1f4310af072\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+298-->[com.facebook.soloader:soloader:0.10.5] /Users/gowthamikarnati/.gradle/caches/transforms-3/fe4b3c418a9e79d451e4d1f4310af072/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
 299    </application>
 300
 301</manifest>

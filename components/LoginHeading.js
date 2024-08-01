@@ -2,14 +2,12 @@ import { StyleSheet, Text, View, Dimensions } from 'react-native'
 import React,{useState,useEffect} from 'react'
 import { useTranslation } from 'react-i18next';
 import { Picker } from '@react-native-picker/picker';
-// import { useTranslation } from 'react-i18next';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 const { width, height } = Dimensions.get('window');
 
 export default function LoginHeading() {
-  // const {t} =useTranslation();
   const { t, i18n: i18nInstance } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState(i18nInstance.language);
 
@@ -17,7 +15,7 @@ export default function LoginHeading() {
     const loadLanguage = async () => {
       try {
         const storedLanguage = await AsyncStorage.getItem('selectedLanguage');
-        if (storedLanguage) {
+        if (storedLanguage) { 
           i18nInstance.changeLanguage(storedLanguage);
           setCurrentLanguage(storedLanguage);
         }
@@ -71,11 +69,11 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        paddingHorizontal:width*0.06,
-        marginBottom:width*0.15
+        paddingHorizontal:width*0.05,
+        //marginBottom:width*0.15
     },
     Logintext:{
-        fontSize:width*0.05,
+        fontSize:width*0.06,
         fontWeight:'400',
         color:'#ffffff'
     },

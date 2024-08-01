@@ -1,12 +1,12 @@
 <lint-module
     format="1"
-    dir="D:\Company Riktam\Company Training\PNF\pnfApp\android\app"
+    dir="/Users/gowthamikarnati/Desktop/reactnative/Music-Player/android/app"
     name=":app"
     type="APP"
     maven="pnfApp:app:"
     agpVersion="8.1.1"
     buildFolder="build"
-    bootClassPath="C:\Users\neelm\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\neelm\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    bootClassPath="/Users/gowthamikarnati/Library/Android/sdk/platforms/android-34/android.jar:/Users/gowthamikarnati/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
     javaSourceLevel="17"
     compileTarget="android-34"
     neverShrinking="true">

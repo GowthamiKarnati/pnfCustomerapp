@@ -88,7 +88,7 @@ export default function MyLoan({route}) {
       const fetchEmiData = async (mobileNumber)=>{
         // console.log("mobileNumber",mobileNumber)
         const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-        console.log("Mobile number Loan",modifiedMobileNumber);
+        //console.log("Mobile number Loan",modifiedMobileNumber);
         try{
           // setLoading1(true);
           let url=`${api}/emi?criteria=sheet_26521917.column_35.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;

@@ -84,6 +84,8 @@ const AuthProvider = ({ children }) => {
   
     checkForToken();
   }, [state.isAuthenticated]);
+
+  
   const handleLogin = async (token, mobileNumber) => {
     if (token) {
       const storedAuthState = await AsyncStorage.getItem('authState');

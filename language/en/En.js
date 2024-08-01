@@ -67,7 +67,7 @@ export default {
     toastloginerrmessage2:'Mobile number must be of 10 digits',
     toastsuccessmessage1:'Tyre Application Submitted!!!',
     toastsuccessmessage2:'You successfully applied for Tyre Loan, We reach you shortly!',
-    footer:'Need help? Contact our support team at',
+    footer:'Need help? Contact us on 9529790320',
     welcome:'Welcome',
     customerDetails:"Customer Details",
     applyinsuranceloan:"Apply for Insurance Loan",

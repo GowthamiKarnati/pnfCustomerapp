@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
         fontSize:width*0.04,
         fontWeight:'500',
         marginVertical:width*0.007,
-        marginLeft:width*0.02
+        marginLeft:width*0.02,
+        marginBottom: height*0.01
     }
 })

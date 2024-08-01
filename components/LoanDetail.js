@@ -3,8 +3,6 @@ import React,{useState,useEffect} from 'react';
 import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 import { useAuth } from '../pages/AuthContext';
-import messaging from '@react-native-firebase/messaging';
-import Toast from 'react-native-toast-message';
 import firestore from '@react-native-firebase/firestore';
 
 const { width, height } = Dimensions.get('window');
@@ -34,7 +32,7 @@ export default function LoanDetail({loanid,amount1,amount2,date1,date2,stat1,sta
       const fetchEmiData = async (mobileNumber)=>{
         // console.log("mobileNumber",mobileNumber)
         const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-        console.log("Mobile number Loan",modifiedMobileNumber);
+        //console.log("Mobile number Loan",modifiedMobileNumber);
         try{
           let url=`${api}/emi?criteria=sheet_26521917.column_35.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
           const res = await axios.get(url);
@@ -53,7 +51,7 @@ export default function LoanDetail({loanid,amount1,amount2,date1,date2,stat1,sta
           // console.log(res.data.data);
           // console.log(groupedEmiData);
         }catch(err){
-          console.error('Error fetching data: ',err.message);
+          console.error('Error fetching data in Loan Details: ',err.message);
         }
       }
       // const getToken=async()=>{

@@ -1,13 +1,18 @@
-import { StyleSheet, Text, View,TouchableOpacity, Dimensions } from 'react-native'
+import { StyleSheet, Text, View,TouchableOpacity, Dimensions, ActivityIndicator } from 'react-native'
 import React from 'react';
 
 const { width, height } = Dimensions.get('window');
 
-export default function Button({text,width,onPress}) {
+export default function Button({text, width, onPress,loading}) {
   return (
     <TouchableOpacity onPress={onPress} style={{display:'flex',justifyContent:'center',marginVertical:width*0.03}}>
       <View style={[styles.button, { width:width }]}>
-        <Text style={styles.buttonText}>{text}</Text>
+        {/* <Text style={styles.buttonText}>{text}</Text> */}
+        {loading ? (
+            <ActivityIndicator style={styles.buttonText} color="#ffffff" />
+          ) : (
+            <Text style={styles.buttonText}>{text}</Text>
+          )}
       </View>
     </TouchableOpacity>
   )

@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         height:height*0.1,
         display:'flex',
         justifyContent:'center',
-        marginBottom:width*0.1
+        marginBottom:width*0.05
     },
     headingbody:{
         flexDirection:'row',

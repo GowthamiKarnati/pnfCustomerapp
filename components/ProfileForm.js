@@ -18,8 +18,8 @@ export default function ProfileForm({mobileNumber}) {
   const [truck,setTruck] = useState([]);
   console.log("Mobile Number Profile",mobileNumber);
 
-  // const api="http://10.0.2.2:5000"
-  const api="https://pnf-backend.vercel.app/";
+  const api="http://10.0.2.2:4000"
+  //const api="https://pnf-backend.vercel.app/";
 
   useEffect(() => {
     const loadLanguage = async () => {
@@ -52,7 +52,7 @@ export default function ProfileForm({mobileNumber}) {
       setLoading(false);
       
     }catch(err){
-      console.error('Error fetching data: ',err.message);
+      console.error('Error fetching data in profile: ',err.message);
     }
   }
   const fetchTruckData = async ()=>{

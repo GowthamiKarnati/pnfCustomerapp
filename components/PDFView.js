@@ -56,7 +56,7 @@ export default function PDFView() {
             }
 
         }catch(err){
-            setError('Error fetching data:' + err.message);
+            setError('Error fetching data in Pdf:' + err.message);
         }finally {
             setLoading(false);
         }

@@ -38,7 +38,7 @@ export default function EMIDetails({mobileNumber,loanid}) {
     const fetchEmiData = async (mobileNumber)=>{
         // console.log("mobileNumber",mobileNumber)
         const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-        console.log("Mobile number Loan",modifiedMobileNumber);
+        //console.log("Mobile number Loan",modifiedMobileNumber);
         try{
           // setLoading1(true);
           let url=`${api}/emi?criteria=sheet_26521917.column_35.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
@@ -57,7 +57,7 @@ export default function EMIDetails({mobileNumber,loanid}) {
           // console.log(res.data.data);
           // console.log(groupedEmiData);
         }catch(err){
-          console.error('Error fetching data: ',err.message);
+          console.error('Error fetching data in emiDetails: ',err.message);
         }
       }
     //   useEffect(()=>{

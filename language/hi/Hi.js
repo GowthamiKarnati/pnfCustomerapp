@@ -67,7 +67,7 @@ export default {
     toastloginerrmessage2:'मोबाइल नंबर 10 अंकों का होना चाहिए',
     toastsuccessmessage1:'टायर आवेदन सबमिट किया गया!!!',
     toastsuccessmessage2:'आपने सफलतापूर्वक टायर ऋण के लिए आवेदन किया है, हम आपसे शीघ्र संपर्क करेंगे!',
-    footer:'सहायता चाहिए? समर्थन टीम से संपर्क करें:',
+    footer:'मदद चाहिए? हमसे संपर्क करें 9529790320 पर।',
     welcome:'स्वागत',
     customerDetails:"ग्राहक विवरण",
     applyinsuranceloan:"बीमा ऋण के लिए आवेदन करें",
