@@ -14,13 +14,12 @@ const { width, height } = Dimensions.get('window');
 
 export default function Travel() {
   const {t} =useTranslation();
-  const { state } = useAuth();
-
+  const { state } = useAuth()
   const mobileNumber = state.loginForm.mobileNumber;
   const profile = state.profile;
   const mobilenumber2 = profile[0]["mobile number"];
   const username = profile[0].name
-  console.log("nsbdvfyu", username)
+  //console.log("nsbdvfyu", username)
   const api="https://pnf-backend.vercel.app/";
   return (
     

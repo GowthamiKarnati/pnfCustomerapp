@@ -11,7 +11,7 @@ export default function ItemList({icon,text,color,component,mobileNumber}) {
     const navigation = useNavigation();
 
     const handlePress=()=>{
-        navigation.navigate(component,{mobileNumber});
+        navigation.navigate(component);
     }
 
   return (

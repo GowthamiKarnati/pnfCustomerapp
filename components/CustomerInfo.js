@@ -10,84 +10,72 @@ const { width, height } = Dimensions.get('window');
 
 export default function CustomerInfo({mobileNumber,username,mobilenumber2}) {
     const {t} =useTranslation();
-    const [profile, setProfile] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
     const [vehicleData, setVehicleData] = useState(null);
-    const [mobilenumber,setMobileNumber]=useState('');
     const navigation = useNavigation();
     const [customerDetails, setCustomerDetails] = useState(null);
-    // const [vehicleData, setVehicleData] = useState(null);
-    const [formSubmitted, setFormSubmitted] = useState(false);
     const [showAlert, setShowAlert] = useState(false);
     const [showAlert1, setShowAlert1] = useState(false);
-
-
     const api="https://pnf-backend.vercel.app/";
 
-    console.log("Customer Info",mobileNumber);
     useEffect(()=>{
-        // fetchProfileData();
         fetchVehicleData();
         fetchCustomerKYCData();
     },[mobileNumber]);
 
-
-      const fetchVehicleData = async ()=>{
-        try{
-          const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-          // console.log("Mobile number",modifiedMobileNumber);
-          let url = `${api}/vehicles?criteria=sheet_32026511.column_609.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
-          const res = await axios.get(url);
-          // console.log(res.data.data);
-          setVehicleData(res.data.data);
-          setLoading(false);
-        }catch(err){
-          console.error('Error fetching data in customer: ',err.message);
+    const fetchVehicleData = async ()=>{
+      try{
+        setLoading(true)
+        const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
+        let url = `${api}/vehicles?criteria=sheet_32026511.column_609.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
+        const res = await axios.get(url);
+        setVehicleData(res.data.data); 
+        setLoading(false);
+      }catch(err){
+        console.error('Error fetching data in customer: ',err.message);
+      }
+    }
+    const fetchCustomerKYCData = async ()=>{
+      try{
+        setLoading(true);
+        const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
+        let url = `${api}/customerKyc?criteria=sheet_42284627.column_1100.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
+        const res = await axios.get(url);
+        setCustomerDetails(res.data.data[0]);
+        setLoading(false);
+      }catch(err){
+        console.error('Error fetching data in customer: ',err.message);
+      }
+    }
+    const capitalize = (str) => {
+      if (!str) return ''; // Handle cases where str is undefined or null
+      return str
+        .split(' ') // Split the string into an array of words
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize each word
+        .join(' '); // Join the words back into a string
+    };
+    const handletryeloan = ()=>{
+      if (!customerDetails) {
+          setShowAlert(true);
+          return;
+        }else if(customerDetails['KYC Status']==='Inactive'){
+          setShowAlert1(true);
+          return;
+        }else{
+          navigation.navigate('TyreLoan',{mobileNumber,vehicleData,customerDetails});
         }
-      }
-      const fetchCustomerKYCData = async ()=>{
-        try{
-          const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-          // console.log("Mobile number",modifiedMobileNumber);
-          let url = `${api}/customerKyc?criteria=sheet_42284627.column_1100.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
-          const res = await axios.get(url);
-        //   console.log(res.data.data[0]);
-          setCustomerDetails(res.data.data[0]);
-          setLoading(false);
-        }catch(err){
-          console.error('Error fetching data in customer: ',err.message);
+    }
+    const handleinsuranceloan = ()=>{
+      if (!customerDetails) {
+          setShowAlert(true);
+          return;
+        }else if(customerDetails['KYC Status']==='Inactive'){
+          setShowAlert1(true);
+          return;
+        }else{
+          navigation.navigate('InsuranceLoan',{mobileNumber,vehicleData,customerDetails});
         }
-      }
-      const capitalize = (str) => {
-        if (!str) return ''; // Handle cases where str is undefined or null
-        return str
-          .split(' ') // Split the string into an array of words
-          .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize each word
-          .join(' '); // Join the words back into a string
-      };
-      const handletryeloan = ()=>{
-        if (!customerDetails) {
-            setShowAlert(true);
-            return;
-          }else if(customerDetails['KYC Status']==='Inactive'){
-            setShowAlert1(true);
-            return;
-          }else{
-            // console.log(customerDetails);
-            navigation.navigate('TyreLoan',{mobileNumber,vehicleData,customerDetails});
-          }
-      }
-      const handleinsuranceloan = ()=>{
-        if (!customerDetails) {
-            setShowAlert(true);
-            return;
-          }else if(customerDetails['KYC Status']==='Inactive'){
-            setShowAlert1(true);
-            return;
-          }else{
-            navigation.navigate('InsuranceLoan',{mobileNumber,vehicleData,customerDetails});
-          }
-      }
+    }
 
   return (
     <>
