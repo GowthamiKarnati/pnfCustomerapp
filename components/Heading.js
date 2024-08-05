@@ -14,10 +14,6 @@ export default function Heading({icon,text,size,position,component,mobileNumber}
         navigation.navigate(component); 
     };
     const mobileNumber1= state.loginForm.mobileNumber;
-    // useEffect(() => {
-    //     console.log('Updated state:', state);
-    //     // handleLogoutButton()
-    //   }, [state]);
     const handleLogoutButton = async () => {
         
         // Dispatch an action to update the authentication state
@@ -50,7 +46,7 @@ const styles = StyleSheet.create({
         height:height*0.1,
         display:'flex',
         justifyContent:'center',
-        marginBottom:width*0.14,
+        marginBottom:width*0.04,
     },
     headingbody:{
         flexDirection:'row',

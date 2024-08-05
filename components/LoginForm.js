@@ -8,11 +8,12 @@ import axios from 'axios';
 import { useAuth } from '../pages/AuthContext';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import ShowToast from './ShowToast';
+import firestore from '@react-native-firebase/firestore';
+import messaging from '@react-native-firebase/messaging'
 
-const api="http://10.0.2.2:4000"
+//const api="http://10.0.2.2:4000";
+const api="https://pnf-backend.vercel.app/";
 const { width, height } = Dimensions.get('window');
-
-
 
 export default function LoginForm() {
   const {t} =useTranslation();
@@ -38,7 +39,7 @@ export default function LoginForm() {
           const { token } = mockResponse.data;
           await AsyncStorage.setItem('authToken', token);
           await AsyncStorage.setItem('mobileNumber', mobileNumber);
-          await handleLogin(token, mobileNumber);
+          handleLogin(token, mobileNumber);
           dispatch({
             type: 'SET_STATE',
             payload: {
@@ -48,6 +49,7 @@ export default function LoginForm() {
             },
           });
           dispatch({ type: 'LOGIN' });
+          await getToken(mobileNumber)
           navigation.navigate('Dash');
         } else {
           ShowToast('error', 'Invalid Mobile Number', 'Please check the mobile number and try again.');
@@ -64,14 +66,34 @@ export default function LoginForm() {
         } else {
           ShowToast('error', 'Network Error', 'An error occurred while trying to connect. Please check your network and try again')
         }
-        //console.error('Error during login:', err);
       }
       finally{
         setLoading(false);
       }
   };
-  
-
+  const getToken = async (mobileNumber) => {
+    const authStatus = await messaging().requestPermission();
+    const enabled =
+      authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
+      authStatus === messaging.AuthorizationStatus.PROVISIONAL;
+    if (enabled) {
+      const token = await messaging().getToken();
+      const doc = await firestore().collection('customer').doc(mobileNumber).get();
+      if (doc.exists && doc.data().token === token) {
+        console.log('Token already exists for mobile number: ', mobileNumber);
+      } else {
+        firestore().collection('customer').doc(mobileNumber).set({
+          token: token
+        })
+          .then(() => {
+            console.log('Token added for mobile number: ', mobileNumber);
+          })
+          .catch(error => {
+            console.error('Error adding token: ', error);
+          });
+      }
+    }
+  };
   return (
     <View style={styles.FormContainer}>
       <InputDetails 

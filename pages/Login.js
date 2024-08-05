@@ -1,8 +1,6 @@
 import { Button, StyleSheet, Text, View,Dimensions, ScrollView } from 'react-native'
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import { useTranslation } from 'react-i18next';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-
 import LoginHeading from '../components/LoginHeading'
 import LoginForm from '../components/LoginForm'
 import Footer from '../components/Footer';
@@ -20,23 +18,11 @@ export default function Login() {
       <Text style={styles.subHeading}>{t('login')}</Text>
       <LoginForm />
       <Footer />
-      {/* <View style={styles.languageSelector}>
-      <Button onPress={() => changeLanguage('En')} title="English" disabled={currentLanguage === 'En'} />
-        <Button onPress={() => changeLanguage('Hi')} title="हिन्दी" disabled={currentLanguage === 'Hi'} />
-        <Button onPress={() => changeLanguage('Mr')} title="मराठी" disabled={currentLanguage === 'Mr'} />
-      </View> */}
     </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
-  container:{
-    //paddingHorizontal:width*0.1,
-    //backgroundColor:'red',
-    //marginHorizontal:width*0.1,
-
-
-  },
     subHeading:{
         marginHorizontal:width*0.06,
         marginVertical:width*0.05,

@@ -3,19 +3,16 @@ import React,{useState,useEffect} from 'react';
 import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 import { useAuth } from '../pages/AuthContext';
-import firestore from '@react-native-firebase/firestore';
 
 const { width, height } = Dimensions.get('window');
 
 
-export default function LoanDetail({loanid,amount1,amount2,date1,date2,stat1,stat2,mobileNumber}) {
+export default function LoanDetail({mobileNumber}) {
     const {t} =useTranslation();
     const [emiData, setEmiData] = useState([]);
     const [emiData1, setEmiData1] = useState([]);
     const [loading, setLoading] = useState(true);
-    const { state, handleLogout } = useAuth();
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 2;
     const [showUpcomingEmi, setShowUpcomingEmi] = useState(true);
     const [showAllEmi, setShowAllEmi] = useState(true);
 
@@ -23,16 +20,11 @@ export default function LoanDetail({loanid,amount1,amount2,date1,date2,stat1,sta
     const api="https://pnf-backend.vercel.app/";
     // console.log(mobileNumber);
     useEffect(()=>{
-        // console.log('Fetching Emi Data');
-        fetchEmiData(state.loginForm.mobileNumber);
-        // getToken();
-        // sendTokenToBackend();
+        fetchEmiData(mobileNumber);
     },[currentPage])
     
       const fetchEmiData = async (mobileNumber)=>{
-        // console.log("mobileNumber",mobileNumber)
         const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-        //console.log("Mobile number Loan",modifiedMobileNumber);
         try{
           let url=`${api}/emi?criteria=sheet_26521917.column_35.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
           const res = await axios.get(url);
@@ -48,120 +40,11 @@ export default function LoanDetail({loanid,amount1,amount2,date1,date2,stat1,sta
           setEmiData(groupedEmiData);
           setEmiData1(res.data.data);
           setLoading(false);
-          // console.log(res.data.data);
-          // console.log(groupedEmiData);
         }catch(err){
           console.error('Error fetching data in Loan Details: ',err.message);
         }
       }
-      // const getToken=async()=>{
-      //   const authStatus = await messaging().requestPermission();
-      //   const enabled =
-      //     authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
-      //     authStatus === messaging.AuthorizationStatus.PROVISIONAL;
-      //   if (enabled) {
-      //     console.log('Authorization status:', authStatus);
-      //   }
-      //   const token = await messaging().getToken();
-      //   const mobileNumber = state?.loginForm?.mobileNumber;
-      //   console.log({token,mobileNumber});
-      //   console.log("App",mobileNumber);
-      //   // if (mobileNumber) {
-      //   //   await sendTokenToBackend(token, mobileNumber);
-      //   // }
-      //   // Send the token to the backend
-      //   await sendDataToBackend(token);
-        
-      // }
-      const sendDataToBackend = async () =>{
-        // console.log(tokenData);
-        const tomorrow = new Date();
-        // tomorrow.setDate(tomorrow.getDate() + 1);
-        tomorrow.setDate(tomorrow.getDate()-1);
-        const api = `https://pnf-backend.vercel.app/emi?criteria=sheet_26521917.column_35.column_87%20LIKE%20%22%25${encodeURIComponent(mobileNumber)}%22`;
-        const res1 = await axios.get(api);
-        const emiData = res1.data.data;
-        const upcomingUnpaidEmis = emiData.filter(emi => emi['status']=== 'unpaid' && new Date(emi['emi date']).toDateString() === tomorrow.toDateString());
-        // console.log(upcomingUnpaidEmis)
-
-          upcomingUnpaidEmis.sort((a, b) => {
-            // Assuming emiDate is a property in each emi object
-            const emiDateA = a['emi date'];
-            const emiDateB = b['emi date'];
-          
-            // Convert the dates to a comparable format (e.g., timestamp or Date object)
-            const dateA = new Date(emiDateA);
-            const dateB = new Date(emiDateB);
-          
-            // Compare the dates
-            return dateA - dateB;
-          });
-          // console.log(`Upcoming unpaid EMIs for mobile number ${mobileNumber}:`, upcomingUnpaidEmis);
-          upcomingUnpaidEmis.map(emi=>{
-            const notificationData = {
-              "to": token,
-              "notification": {
-                  "body": `Dear ${emi['customer']} you have to pay ${emi['amount']} tomorrow`,
-                  "title": `Upcoming EMI for Loan ${emi['loan id']}`
-              },
-              "data": {
-                  "data_new": "Test Data"
-              }
-            }
-            // sendTokenToBackend(tokenList);
-          })
-      }
-      const sendTokenToBackend = async () => {
-        try {
-          const tokenData=await firestore().collection('customer').get();
-          const tokenList = [];
-          tokenData.forEach(doc => {
-            const token = doc.data().token;
-            tokenList.push(token)
-          });
-          console.log('Token List:', tokenList);
-          // console.log("Data",tokenList);
-          await fetch('http://10.0.2.2:5000/receiveToken', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ tokens:tokenList }),
-          });
-          console.log('Token sent to backend successfully');
-        } catch (error) {
-          console.error('Error sending token to backend:', error);
-        }
-      }
-
       
-      // useEffect(() => {
-      //   // Handle foreground notifications
-      //   messaging().onMessage(async remoteMessage => {
-      //     console.log('Message handled in the foreground!', remoteMessage);
-      //     // Display notification or update UI as needed
-      //     Toast.show({
-      //       type: 'info',
-      //       position: 'top',
-      //       text1: remoteMessage.data.title,
-      //       text2: remoteMessage.data.body,
-      //       visibilityTime: 10000, // 10 seconds duration
-      //       autoHide: true,
-      //       topOffset: 40,
-      //       bottomOffset: 40,
-      //     });
-      //   });
-      //   // Set up background message handler
-      //   const unsubscribe = messaging().setBackgroundMessageHandler(
-      //     async (remoteMessage) => {
-      //       console.log('Message handled in the background!', remoteMessage);
-      //       // You can handle the message here, e.g., show a local notification
-      //     }
-      //   );
-      
-      //   return unsubscribe;
-      // }, []);
-    //   console.log(emiData)
     const toggleUpcomingEmi = () => {
       setShowUpcomingEmi(!showUpcomingEmi);
     };
@@ -223,7 +106,8 @@ export default function LoanDetail({loanid,amount1,amount2,date1,date2,stat1,sta
                 </View>
               ))}
             <TouchableOpacity onPress={toggleAllEmi} style={styles.box1}>
-              <Text style={styles.text1}>{t('allemi')}</Text>
+              {/* <Text style={styles.text1}>{t('allemi')}</Text> */}
+              <Text style={styles.text1}>All emis</Text>
             </TouchableOpacity>
             {showAllEmi && Object.entries(emiData).map(([loanId, emiList]) => (
             <View key={loanId}>
@@ -257,10 +141,10 @@ const styles = StyleSheet.create({
     heading:{
         fontSize:width*0.06,
         color:'#000000',
-        marginTop:width*0.05,
+        //marginTop:width*0.05,
         marginHorizontal:width*0.03,
         fontWeight:'400',
-        marginBottom:width*0.04
+        //marginBottom:width*0.01
     },
     container:{
         borderWidth:width*0.0019,
@@ -301,7 +185,7 @@ const styles = StyleSheet.create({
     },
     box:{
       marginVertical:width*0.03,
-      marginHorizontal:width*0.04,
+      marginHorizontal:width*0.05,
       backgroundColor:'#FD3B28',
       padding:width*0.03,
       borderRadius:width*0.018,
@@ -313,7 +197,9 @@ const styles = StyleSheet.create({
       backgroundColor:'#10b981',
       padding:width*0.03,
       borderRadius:width*0.018,
-      elevation:width*0.01
+      elevation:width*0.01,
+      //marginBottom:width*0.01
+
     },
     text:{
       textAlign:'center',

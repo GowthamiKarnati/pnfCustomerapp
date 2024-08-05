@@ -6,20 +6,18 @@ import { useAuth } from '../pages/AuthContext';
 
 const { width, height } = Dimensions.get('window');
 
-export default function DashHeading({icon,text,size,position,component,mobileNumber}) {
-    const { dispatch,state,handleLogout,resetLoginData } = useAuth();
+export default function DashHeading({icon,text,size,component,mobileNumber}) {
+    //console.log("Profile",profile);
+    //console.log("mobile", mobileNumber)
+    const {state,handleLogout,resetLoginData } = useAuth();
     const navigation = useNavigation();
     const handleProfilePress = () => {
         navigation.navigate(component,{mobileNumber}); 
     };
-    const mobileNumber1= state.loginForm.mobileNumber;
+    
     const handleLogoutButton = async() => {
-        // Dispatch an action to update the authentication state
-        // console.log('Before logout dispatch:', state);
-        await handleLogout(mobileNumber1);
+        await handleLogout(mobileNumber);
         await resetLoginData();
-        // console.log('After logout dispatch:', state);
-        // Update login form fields in the state to clear the data
         navigation.navigate('Login');
     }
   return (

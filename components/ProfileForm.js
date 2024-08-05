@@ -6,20 +6,21 @@ import axios from 'axios';
 import { Picker } from '@react-native-picker/picker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Footer from './Footer';
+import { useAuth } from '../pages/AuthContext';
 
 const { width, height } = Dimensions.get('window');
 
-export default function ProfileForm({mobileNumber}) {
-  // const {t} =useTranslation();
+export default function ProfileForm() {
   const { t, i18n: i18nInstance } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState(i18nInstance.language);
-  const [loading, setLoading] = useState(true);
-  const [profile, setProfile] = useState([]);
+  const [loading, setLoading] = useState(false);
   const [truck,setTruck] = useState([]);
-  console.log("Mobile Number Profile",mobileNumber);
-
-  const api="http://10.0.2.2:4000"
-  //const api="https://pnf-backend.vercel.app/";
+  const {state} = useAuth();
+  const profile = state.profile;
+  console.log("in profileForm", profile);
+    //const api="http://10.0.2.2:4000"
+  const api="https://pnf-backend.vercel.app/";
+  const mobile = state.loginForm.mobileNumber;
 
   useEffect(() => {
     const loadLanguage = async () => {
@@ -38,30 +39,17 @@ export default function ProfileForm({mobileNumber}) {
   }, []);
 
   useEffect(()=>{
-    fetchProfileData();
+    //fetchProfileData();
     fetchTruckData();
   },[]);
-  const fetchProfileData = async ()=>{
-    try{
-      const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-      // console.log("Mobile number",modifiedMobileNumber);
-      let url = `${api}/customer?criteria=sheet_95100183.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
-      const res = await axios.get(url);
-      // console.log(res.data.data);
-      setProfile(res.data.data);
-      setLoading(false);
-      
-    }catch(err){
-      console.error('Error fetching data in profile: ',err.message);
-    }
-  }
   const fetchTruckData = async ()=>{
     try{
-      const modifiedMobileNumber = mobileNumber.length > 10 ? mobileNumber.slice(-10):mobileNumber;
-      // console.log("Mobile number",modifiedMobileNumber);
+      setLoading(true);
+      const modifiedMobileNumber = mobile.length > 10 ? mobile.slice(-10):mobile;
+      console.log("Mobile number",modifiedMobileNumber);
       let url = `${api}/customer/trucks?criteria=sheet_95100183.column_87%20LIKE%20%22%25${encodeURIComponent(modifiedMobileNumber)}%22`;
       const res = await axios.get(url);
-      console.log(res.data.data);
+      //console.log(res.data.data);
       setTruck(res.data.data);
       setLoading(false);
     }catch(err){
@@ -94,22 +82,28 @@ export default function ProfileForm({mobileNumber}) {
     ):(
       <View style={styles.FormContainer}>
           <>
-              <ItemDetails text1={t('name')} text2={profile[0]["name"]}/>
-              <ItemDetails text1={t('pancard')} text2={profile[0]["pan"]}/>
-              <ItemDetails text1={t('dob')} text2={profile[0]["Date of birth"].split(" ")[0]}/>
-              <ItemDetails text1={t('mobile')} text2={profile[0]["mobile number"]}/>
-              <ItemDetails text1={t('alternatemobile')} text2={profile[0]["alternate mobile number"]}/>
-              {/* Trucks Details */}
+              <ItemDetails text1={t('name')} text2={profile[0]["name"] ? profile[0]["name"] : "--"}/>
+              <ItemDetails text1={t('pancard')} text2={profile[0].pan ? profile[0].pan : "--"}/>
+              <ItemDetails text1={t('dob')} text2={profile[0]["Date of birth"] ? profile[0]["Date of birth"].split(" ")[0] : "--"}/>
+              <ItemDetails text1={t('mobile')} text2={profile[0]["mobile number"] ? profile[0]["mobile number"] : "--"}/>
+              <ItemDetails text1={t('alternatemobile')} text2={profile[0]["alternate mobile number"] ? profile[0]["alternate mobile number"] : "--"}/>
               <View>
                   <Text style={{ fontSize: width * 0.03, color: '#222222' }}>{t('trucks')}</Text>
-                  {truck.map((truck, index) => (
-                    <View key={index} style={styles.listItem}>
-                      <Text style={styles.bullet}>•</Text>
-                      <Text style={{ fontSize: width * 0.035, color: '#000000' }}>{truck['Truck Number']}</Text>
-                    </View>
-                  ))}
+                  {truck.length === 0 ? (
+                      <Text>--</Text>
+                    ) : (
+                      truck.map((truck, index) => (
+                        <View key={index} style={styles.listItem}>
+                          <Text style={styles.bullet}>•</Text>
+                          <Text style={{ fontSize: width * 0.035, color: '#000000' }}>
+                            {truck['Truck Number']}
+                          </Text>
+                        </View>
+                      ))
+                    )}
+
             </View>
-            <ItemDetails text1={t('dealer')} text2={profile[0]["DEALER"]}/>
+            <ItemDetails text1={t('dealer')} text2={profile[0]["DEALER"] ? profile[0].DEALER : "--"}/>
             <View style={styles.pickerContainer}>
               <Picker
                 selectedValue={currentLanguage}

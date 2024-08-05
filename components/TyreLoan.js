@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View,Dimensions } from 'react-native'
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import TravelHeading from '../components/TravelHeading'
+//import TravelHeading from '../components/TravelHeading'
 import TravelForm from '../components/TravelForm'
 import Footer from '../components/Footer';
 
@@ -13,7 +13,7 @@ export default function TyreLoan({route}) {
   const { mobileNumber,vehicleData,customerDetails } = params;
   return (
     <View>
-      <TravelHeading component='Travel' />
+      //<TravelHeading component='Travel' />
       <Text style={styles.subHeading}>{t('applytireloan')}</Text>
       <TravelForm mobileNumber={mobileNumber} vehicleData={vehicleData} customerDetails={customerDetails} />
       <Footer />

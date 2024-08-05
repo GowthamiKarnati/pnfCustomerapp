@@ -10,6 +10,7 @@ const initialState = {
     mobileNumber:"",
   },
   token: null,
+  profile: [],
 };
 
 const authReducer = (state, action) => {
@@ -22,6 +23,8 @@ const authReducer = (state, action) => {
       return { ...state, loginForm: { mobileNumber: '' } };
     case 'SET_STATE':
       return { ...state, ...action.payload };
+    case 'SET_PROFILE':
+      return { ...state, profile: action.payload };
     default:
       return state;
   }
@@ -29,7 +32,6 @@ const authReducer = (state, action) => {
 
 const AuthProvider = ({ children }) => {
   const [state, dispatch] = useReducer(authReducer, initialState);
-  const [loggedOut, setLoggedOut] = useState(false);
 
   const handleLogout = async(mobileNumber) => {
     await AsyncStorage.removeItem('authToken');
@@ -48,9 +50,11 @@ const AuthProvider = ({ children }) => {
   const resetLoginData = () => {
     dispatch({ type: 'RESET_LOGIN_DATA' });
   };
+  const setProfileData = (profile) => {
+    //console.log("called from dash screen")
+    dispatch({ type: 'SET_PROFILE', payload: profile });
+  };
 
-  
-  
   useEffect(() => {
     // Check for token in AsyncStorage on component mount
     const checkForToken = async () => {
@@ -64,7 +68,7 @@ const AuthProvider = ({ children }) => {
           // console.log(parsedAuthState);
           // Check if the mobileNumber is present in the parsedAuthState
         const { loginForm: { mobileNumber } } = parsedAuthState;
-        console.log('Mobile Number from Auth State:', mobileNumber);
+        //console.log('Mobile Number from Auth State:', mobileNumber);
           dispatch({ type: 'SET_STATE', payload: parsedAuthState });
           handleLogin(storedToken, storedMobileNumber);
           // dispatch({ type: 'LOGIN', payload: storedToken });
@@ -142,7 +146,7 @@ const AuthProvider = ({ children }) => {
 
 
   return (
-    <AuthContext.Provider value={{ state, dispatch,handleLogout,resetLoginData,handleLogin }}>
+    <AuthContext.Provider value={{ state, dispatch,handleLogout,resetLoginData,handleLogin, setProfileData }}>
       {children}
     </AuthContext.Provider>
   );

@@ -8,7 +8,7 @@ function ShowToast(type, text1, text2) {
       position: 'bottom',
       text1,
       text2,
-      visibilityTime: 5000,
+      visibilityTime: 10000,
       autoHide: true,
       topOffset: 30,
       bottomOffset: 40,

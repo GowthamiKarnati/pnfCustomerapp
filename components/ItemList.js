@@ -11,10 +11,7 @@ export default function ItemList({icon,text,color,component,mobileNumber}) {
     const navigation = useNavigation();
 
     const handlePress=()=>{
-        // console.log(cdLoansData)
-        // console.log(cdLoansData)
         navigation.navigate(component,{mobileNumber});
-        // console.log(mobileNumber);
     }
 
   return (
